@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">EMPRESTIMOS</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a style="padding-left:20px" class="navbar-brand" href="#">EMPRESTIMOS</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -16,6 +16,7 @@
           </ul>
         </div>
       </nav>
+      <br>
 
     </div>
     <router-view/>
